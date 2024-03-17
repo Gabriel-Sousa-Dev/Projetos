@@ -1,7 +1,7 @@
 # Projetos
 Projetos simples ou aleatórios que fiz, na maioria dos casos, para estudos.
-# Explicação 
+## Explicação 
 Eu fiz vários projetos pequenos e simples Eu queria guardar-los no GitHub.
 Dentro de cada pasta haverá um ReadMe explicando melhor o objetivo e do que se trata o código.
-# Observação 
+## Observação 
 A maioria dos projetos provavelmente não serão responsivos
