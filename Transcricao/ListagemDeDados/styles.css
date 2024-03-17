@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  text-align: center;
+  margin-block: 25px;
+}
+
+main{
+  padding: 25px;
+  width: 95vw;
+  max-width: 700px;
+  border: solid 1px gray;
+  margin-inline: auto;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+form div select option{
+  text-transform: capitalize;
+}
+form button{
+  width: 100px;
+  margin: 7px;
+}
+
+.area-conteudo{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  max-width: 100%;
+}
+
+.conteudo-din{
+  max-width: 100%;
+  overflow-x: scroll;
+  border: 1px dashed red;
+  padding: 7px;
+}
+p.tags-div{
+  display: flex;
+  gap: 3px;
+  max-width: 100%;
+  overflow-x: scroll;
+  /* background-color: red */
+}
+.tags{
+  font-size: small;
+  padding: 3px;
+  text-decoration: underline;
+  
+}
+
+
+/* Modais */
+
+dialog{
+  width: 75vw;
+  padding: 25px;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 2px 2px 15px rgb(155, 155, 155);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+dialog div{
+  padding: 5px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  border-bottom: 1px solid gray;
+}
+dialog div button{
+  text-align: center;
+  vertical-align: center;
+  height: 25px;
+  width: 25px;
+}
+dialog input[type=text]{
+  margin-bottom: 15px;
+  display: block;
+}
+dialog button{
+  display: block;
+  padding: 5px;
+  
+}
+dialog#modalCont div.newContTagsDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.check-tag{
+  border: none;
+  margin: 0px;
+}
