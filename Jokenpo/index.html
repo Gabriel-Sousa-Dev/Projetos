@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Jokenpo</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="jokenpo.css">
+</head>
+<body>
+    <div class="div-center">
+        <div class="div-top">
+            <div class="contador">
+                <p class="contador-V"><i class="fa fa-check"></i><span id="contV">0</span></p>
+                <p class="contador-D"><i class="fa fa-xmark"></i><span id="contD">0</span></p>
+            </div>
+            <h1>inimigo</h1>
+            <i class=" fa-question optionI" id="optIni" style="font-size:10px;">hhh</i>
+        </div>
+        <div class="div-bottom">
+            
+            <h1>Escolha um</h1>
+            <div class="select">
+                <i class="fa fa-hand-rock option" aria-hidden="true" style="font-size:10px;" onclick="jogar('pedra')"></i>
+                <i class="fa fa-hand-paper option" aria-hidden="true" style="font-size:10px;" onclick="jogar('papel')"></i>
+                <i class="fa fa-hand-scissors option" aria-hidden="true" style="font-size:10px;" onclick="jogar('tesoura')"></i>
+            </div>
+        </div>
+    
+    
+    <script src="jokenpo.js" defer></script>
+    </div>
+</body>
+</html>
+
