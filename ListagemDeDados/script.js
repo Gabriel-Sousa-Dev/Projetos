@@ -22,22 +22,17 @@ const divAreaCont = document.querySelector("div.area-conteudo")
 const btnOT = document.getElementById("btnOT")
 const btnOC = document.getElementById("btnOC")
 
-let tags = ["bleach", "narutoshippudenansbshsjs", "jj"]
+let tags = ["programa", "serie", "novela"]
 let conteudo = [
     {
-      titulo: "tiulo1",
+      titulo: "titulo1",
       conteudo: "conteudo1",
-      tags: ["bleach","naruto"]
+      tags: ["serie"]
     },
     {
-      titulo: "tiulo2",
+      titulo: "titulo2",
       conteudo: "conteudo2",
-      tags: ["jj","zedin"]
-    },
-    {
-      titulo: "tiulo3",
-      conteudo: "conteudo3",
-      tags: ["jj", "daishikawa"]
+      tags: ["serie","programa"]
     }
   ]
   
