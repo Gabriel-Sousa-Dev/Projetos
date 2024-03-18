@@ -1,5 +1,6 @@
 # Projetos
 Projetos simples ou aleatórios que fiz, na maioria dos casos, para estudos.
+![Quantidade de projetos](https://img.shields.io/badge/Qtd._projetos-4-blue)
 ## Explicação 
 Eu fiz vários projetos pequenos e simples Eu queria guardar-los no GitHub.
 Dentro de cada pasta haverá um ReadMe explicando melhor o objetivo e do que se trata o código.
