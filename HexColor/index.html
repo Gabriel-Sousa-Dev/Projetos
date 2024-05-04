@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Seletor de cores</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  
+  <main>
+  
+    <div class="inputs">
+      
+      <div class="input-field">
+        <label for="">Red:</label>
+        <input type="range" id="inpR" min="0" max="255" step="1" oninput="atualizarValores()">
+      </div>
+      
+      <div class="input-field">
+        <label for="">Green:</label>
+        <input type="range" id="inpG" min="0" max="255" step="1" oninput="atualizarValores()">
+      </div>
+    
+      <div class="input-field">
+        <label for="">Blue:</label>
+        <input type="range" id="inpB" min="0" max="255" step="1" oninput="atualizarValores()">
+      </div>
+      
+      <div class="input-field">
+        <label for="">Opacity:</label>
+        <input type="range" id="inpO" min="0" max="100" step="1" value="100" oninput="atualizarValores()">
+      </div>
+    
+      <div class="hex">
+        <p class="hexTitle">Rgb:</p>
+        <p id="hexCode">155,155,511</p>
+      </div>
+    
+    
+    </div>
+    <div class="div-result">
+    
+      <div class="result">
+      
+      </div>
+    
+    </div>
+  
+  </main>
+  
+  <script src="script/script.js"></script>
+</body>
+
+</html>
