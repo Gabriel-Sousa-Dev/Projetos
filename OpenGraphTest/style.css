@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    
+}
+
+html {
+    background-color: azure;
+    font-family: 'Poppins', sans-serif, Arial, Helvetica;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 600px;
+    width: 100%;
+    padding: 1rem;
+}
+
+.container__content {
+    text-align: center;
+    color: rgb(66, 66, 66)
+}
+
+.container__content--code {
+    padding: 0.25rem;
+    border-radius: 8px;
+    color: white;
+    background-color: rgba(0, 0, 139, 0.644);
+    font-family: 'Fira Code', sans-serif, Arial, Helvetica;
+    font-weight: 300;
+}
